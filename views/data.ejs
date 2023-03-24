@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Homr</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon2.ico">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/cb5761a778.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://kit.fontawesome.com/cb5761a778.css" crossorigin="anonymous">
+        <section id="title">
+            <nav class="navbar navbar-expand">
+                <div class="container">
+                    <a class="navbar-brand" href="/home">The Homr</a>
+                    <ul
+                        class="nav navbar-nav navbar-right">
+                        <!-- 6 -->
+                        <li id="home">
+                            <a href="/home">HOME</a>
+                        </li>
+                        <li id="about">
+                            <a href="/about">ABOUT US</a>
+                        </li>
+                        <!-- <li id="contact"><a href="/contact">CONTACT US</a></li> -->
+                        <!-- <li id="data">
+                            <a href="/data">data</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </nav>
+        </section>
+
+    </head>
+
+    <body>
+        <section>
+
+            <div class="database">
+
+                
+
+                <%  newtravellers.forEach(function(userData){ %>
+
+
+                <form action="/data" method="post">
+                    <table class="table" id="myTable">
+                        <tbody>
+                            <tr>
+                                <td><%=userData.name%></td>
+                                <td><%=userData.number%></td>
+                                <td><%=userData.place%></td>
+                                <td><%=userData.date%></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </form>
+            <%  }) %>
+        </div>
+</section>
+
+
+<div class="footer1 footer-padding-data">
+  <div class="footer-for-data">
+
+      <p>a Gagan Kapoor production
+          <br>
+          The Homr © 2023</p>
+          <a class="fa-brands fa-instagram footer-fonts" href="https://www.instagram.com/gagankapoor97/"></a>
+          <a href="https://www.linkedin.com/in/gagan-kapoor-8a0b34255/" class="fa-brands fa-linkedin footer-fonts"></a>
+          <a class="fa-solid fa-envelope footer-fonts" href=""></a>
+      </div>
+  </div>
+
+</body>
+</html>

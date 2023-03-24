@@ -1,0 +1,45 @@
+<%- include('header1') %>
+
+<div class="container login-page mt-5">
+  <h1 class="login-heading">Sign In</h1>
+
+  <!-- <div class="row"> -->
+    <!-- <div class="col-sm-8"> -->
+      <div class="card">
+        <div class="card-body">
+
+          <!-- Makes POST request to /login route -->
+          <form action="/login" method="POST">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" pattern="([a-z0-9.]{4,})+(@[v]{1}[i]{1}[t]{1}[s]{1}[t]{1}[u]{1}[d]{1}[e]{1}[n]{1}[t]{1})+\.[a.]{1}[c.]{1}\.[i.]{1}[n.]{1}$" placeholder="Your VIT email id" name="username">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control"  placeholder="Password" name="password">
+            </div>
+            <button type="submit" class="btn btn-dark login-btn">Login</button>
+          </form>
+    </div>
+  </div>
+</div>
+</div>
+<p style="color: #fff;">hello i guyshello hello i guyshello i guyshello i guyshello i guyshello i guyshello
+   i guyshello i guyshello i guysi guyshello i guyshello i guyshello i guyshello i guyshello i guyshello i guyshe
+   llo i guyshello i guyshello i guyshello i guyshello i guyshello i guyshello i guyshello i guyshello i guyshello 
+   i guyshello i guyshello i guyshello i guyshello i guyshello i guyshello i guyshello guyshello i guyshello i guys
+   hello i guyshello i guyshello i guys</p>
+<div class="footer-sign footer-padding-sign">
+  <div class="footer-for-data">
+
+      <p>a Gagan Kapoor production
+          <br>
+          The Homr © 2023</p>
+          <a class="fa-brands fa-instagram footer-fonts" href="https://www.instagram.com/gagankapoor97/"></a>
+          <a href="https://www.linkedin.com/in/gagan-kapoor-8a0b34255/" class="fa-brands fa-linkedin footer-fonts"></a>
+          <a class="fa-solid fa-envelope footer-fonts" href=""></a>
+      </div>
+  </div>
+
+</body>
+</html>

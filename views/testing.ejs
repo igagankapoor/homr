@@ -1,0 +1,59 @@
+<%- include("header") -%>
+
+
+<input class="btn btn-light btn-lg" type="text" id="myInput" onkeyup="searchFun()" name="newPlace" placeholder="From and To" required>
+
+
+    <table class="table" id="myTable">
+        <tbody>
+            <tr>
+                <td>Gagan</td>
+                <td>Bangalore</td>
+            </tr>
+            <tr>
+                <td>sanju</td>
+                <td>mumbai</td>
+            </tr>
+            <tr>
+                <td>ashu</td>
+                <td>haryana</td>
+            </tr>
+            <tr>
+                <td>kash</td>
+                <td>rajasthan</td>
+            </tr>
+            <tr>
+                <td>Kaustubh</td>
+                <td>chennai</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        const searchFun = () => {
+            let filter = document.getElementById('myInput').value.toUpperCase();
+
+            let myTable = document.getElementById('myTable');
+
+            let tr = myTable.getElementsByTagName('tr');
+
+            for (var i = 0; i < tr.length; i++) {
+                let td = tr[i].getElementsByTagName('td')[1];
+
+                if (td) {
+                    let textvalue = td.textContent || td.innerHTML;
+
+                    if (textvalue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+
+            }
+
+        }
+    </script>
+
+
+    <%- include("footer") -%>

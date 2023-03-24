@@ -1,0 +1,325 @@
+/* -----------------------------------navbar----------------------------------- */
+.fa-first-page{
+    font-size: 100px;
+}
+.display-3{
+    margin-top: 20px;
+    font-family: 'sans-serif';
+}
+.navbar {background-color: black;margin-right: 0;}
+.container{
+    padding-left: 0;
+    padding-right: 0;
+}
+a{ 
+    display: block;
+    padding: 15px ;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    color: white; 
+}
+
+.navbar-brand:hover{
+    color: white; 
+}
+
+/* -----------------------------------login-Page----------------------------------- */
+
+.centered {
+    padding-top: 150px;
+    text-align: center;
+}
+.login-page{
+        margin-top: 100px;
+    width: 500px;
+} 
+.login-btn{
+    margin: 3px;
+}
+.login-heading{
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.login2{
+    text-align: center;
+    color: red;
+}
+
+/* -----------------------------------home-body----------------------------------- */
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.startpage{
+    
+    background-color: black;
+    color: white; 
+}
+
+
+.frontheading1 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Montserrat', 'sans-serif';
+    margin-top: 2rem;
+}
+
+#title{
+    background-color: black;
+}
+
+form.item{
+    text-align: center;
+    
+    margin-top: 40px;
+    padding-bottom: 1.5%;
+  }
+ 
+button{
+    margin-top: 3rem;
+  }
+
+.btn{
+    margin: 1px;
+}
+
+ /* -----------------------------------home-body from img----------------------------------- */
+
+ .frontheading2 {
+    
+    font-size: 5rem;
+    font-family: 'Montserrat', 'sans-serif';
+    margin-top: 1rem;
+ }
+
+
+@media only screen and (max-width: 2000px){.colu-6{width: 45%;}}
+@media only screen and (max-width: 1400px){.colu-6{width: 48%;}}
+@media only screen and (max-width:1298px){.colu-4{width: 560px}img{width: 550px;}}
+@media only screen and (max-width:1096px){.colu-3{width: 500px}img{width: 520px;}}
+@media only screen and (max-width:1040px){.colu-3{width: 450px}img{width: 520px;}}
+@media only screen and (max-width:989px){.colu-2{width: 100%;padding: 5%;}img{display: block;margin-left: 35%;margin-right: auto;width: 100%;}}
+@media only screen and (max-width:891px){img{margin-left: 30%;}}
+@media only screen and (max-width:824px){img{margin-left: 25%;}}
+@media only screen and (max-width:760px){img{margin-left: 20%; }}
+@media only screen and (max-width:725px){img{margin-left: 15%;}}
+@media only screen and (max-width:678px){img{margin-left: 10%;}}
+@media only screen and (max-width:618px){img{margin-left: 7%;}}
+@media only screen and (max-width:595px){img{margin-left: 4%;}}
+@media only screen and (max-width:564px){img{margin-left: 2%; }}
+@media only screen and (max-width:554px){img{margin-left: 0%;}}
+
+/* -----------------------------------data webpage----------------------------------- */
+/* table */
+
+.database{
+  text-align: center;
+  margin-top: 2%;
+} 
+
+
+
+tbody {
+    display: block;
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+
+.table{
+    margin-top: 0%;
+    margin-bottom: 0;
+}
+
+thead,tbody tr {
+    display: table;
+    width: 100%;
+  }
+
+thead {
+    width: 100%;
+  }
+
+table {
+    width: 200px;
+  }
+
+td:nth-child(1) {
+    width:10%
+  }
+
+td:nth-child(3) {
+    width:30%
+  }
+
+th, td {
+    border-right: 1px solid #eeeeef;
+}
+
+th:last-child, td:last-child {
+    border-right: none;
+}
+   
+/* -----------------------------------About-Page-----------------------------------*/
+
+.about-page{
+    text-align: center;
+    margin: 7% 21%;
+    border : 3px solid black;
+    background-color: #F0EEED;
+}
+
+.about-heading{
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.founder{
+    /* text-align: left; */
+    display : block;
+    box-sizing: border-box;
+    /* border : 1px solid black; */
+    padding : 1px 1px 1px 1px;
+    white-space: nowrap;
+    width : 100%;
+    clear : both;
+    text-align : center;
+    
+}
+
+#wrapper {
+    margin: 3rem auto; /* to make the div center align to the browser */
+    padding: 20px;
+    width: 350px; /* set it to anything */
+    text-align: left;
+    
+}
+
+@media only screen and (max-width:585px){#wrapper{width: 300px; white-space: normal;}}
+@media only screen and (max-width:472px){#wrapper{width: 220px; white-space: normal;}}
+/* -----------------------------------footer-----------------------------------*/
+
+.footer{
+    position: absolute; 
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0%;
+    
+}
+
+
+
+
+/*----------------------------------------------------*/
+.footer1{
+    /* position: absolute;  */
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    
+}
+.card{
+    margin-bottom: 6rem;
+}
+.footer-padding-data{
+    margin-top: 11%;
+    padding-top: 1%;
+    background-color: #000;
+}
+
+
+
+.footer-sign{
+  margin-top: 2%;
+  text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+.footer-padding-sign{
+    margin-top: 18%;
+    padding-top: 1%;
+    background-color: #000;
+}
+.centered{
+    margin-bottom: 3rem;
+}
+/*----------------------------------------------------*/
+
+
+
+.extra-footer{
+    padding: 0%;
+}
+
+
+footer{
+    margin-top: auto;
+}
+
+.footer-for-data{
+    text-align: center;
+    padding-bottom: 0%;
+    color: #fff;
+    margin-bottom: 1%;
+}
+
+.footer-padding{
+    margin-top: 8.2%;
+    padding-top: 1%;
+    padding-bottom: 1px;
+    background-color: #000;
+}
+.footer-padding-home{
+    margin-top: 15px;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-fonts {
+    margin: 20px 10px;
+}
+
+a.footer-fonts{
+    color: white;
+    text-decoration:none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+}
